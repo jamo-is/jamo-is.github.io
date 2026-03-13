@@ -5,21 +5,39 @@ html, body {
   }
 
   body {
-    background: #213d37;
+    background: #db763e;
     text-align: center;
   }
 
-  h1, h2, h3, p {
+  div {
+  	margin: 20px;
+  	margin-left: 100px;
+  	margin-right: 100px;
+  	background: #213d37;
+  	border-radius: 15px;
+  }
+
+  h1, p {
   	color: #d0d0ce;
   	text-align: left;
-  	padding-right: 100px;
-  	padding-left: 100px;
+  	padding-right: 20px;
+  	padding-left: 20px;
+  	padding-bottom: 20px;
+  }
+
+  h3 {
+  	color: #d0d0ce;
+  	text-align: left;
+  	padding-right: 20px;
+  	padding-left: 20px;
+  	padding-top: 20px;
   }
 
   ol,ul {
   	color: #d0d0ce;
   	text-align: left;
-  	padding-left: 150px;
+  	padding-left: 100px;
+  	padding-right: 90px;
   }
 
   li {
@@ -27,7 +45,7 @@ html, body {
   }
 
   h1 {
-  	padding-top: 50px;
+  	padding-top: 20px;
   	font-weight: normal;
   }
 
@@ -38,7 +56,7 @@ html, body {
   a { 
   	text-decoration: underline;
     text-align: center;
-    color: #d0d0ce;
+    color: #90d5ff;
 	}
 
 	button {
