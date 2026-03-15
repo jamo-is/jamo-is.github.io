@@ -15,9 +15,10 @@ html, body {
   	margin-right: 100px;
   	background: #213d37;
   	border-radius: 15px;
+  	max-width: 100%
   }
 
-  h1, p {
+  p {
   	color: #d0d0ce;
   	text-align: left;
   	padding-right: 20px;
@@ -25,7 +26,25 @@ html, body {
   	padding-bottom: 20px;
   }
 
+  h1 {
+  	font-weight: normal;
+  	color: #d0d0ce;
+  	text-align: left;
+  	padding-right: 20px;
+  	padding-left: 20px;
+  	padding-top: 20px;
+  }
+
+  h2 {
+  	font-weight: normal;
+  	color: #d0d0ce;
+  	text-align: left;
+  	padding-right: 20px;
+  	padding-left: 20px;
+  }
+
   h3 {
+  	font-weight: normal;
   	color: #d0d0ce;
   	text-align: left;
   	padding-right: 20px;
@@ -42,15 +61,6 @@ html, body {
 
   li {
   	padding-bottom: 20px;
-  }
-
-  h1 {
-  	padding-top: 20px;
-  	font-weight: normal;
-  }
-
-  h3 {
-  	font-weight: normal;
   }
 
   a { 
