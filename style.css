@@ -15,7 +15,19 @@ html, body {
   	margin-right: 100px;
   	background: #213d37;
   	border-radius: 15px;
-  	max-width: 100%
+  	max-width: 100%;
+  }
+
+  .container {
+  	
+  }
+ 	
+  .div-photo {
+  	display: inline-block;
+  	width: 48%;
+  	margin: 0px;
+  	margin-left: 0px;
+  	margin-right: 0px;
   }
 
   p {
@@ -92,7 +104,7 @@ html, body {
 	  margin: 0px auto;
 	}
 
-	.table-container {
+	/*.table-container {
 	  flex-shrink: 1;
 	  overflow-y: auto;
 	}
@@ -160,3 +172,4 @@ html, body {
   		transform: translateX(-50%);
   	}
   }
+*/
